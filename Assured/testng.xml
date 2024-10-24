@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ApiAutomation">
+  <test thread-count="5" name="CrudOperation">
+    <classes>
+      <class name="test.Postmethod"/>
+      <class name="test.TestExample2"/>
+      <class name="test.DeleteRequest"/>
+      <class name="test.PutRequestMethod"/>
+      <class name="test.PatchRequest"/>
+      <class name="test.TestExample1"/>
+    </classes>
+  </test> <!-- CrudOperation -->
+</suite> <!-- ApiAutomation -->
